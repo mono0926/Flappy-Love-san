@@ -86,7 +86,7 @@ class GameScene: SKScene {
         var flap = SKAction.repeatActionForever(anim)
         
         bird = SKSpriteNode(texture: birdTexture1)
-        bird.setScale(2.0)
+        bird.setScale(1.0)
         bird.position = CGPoint(x: self.frame.size.width * 0.35, y:self.frame.size.height * 0.6)
         bird.runAction(flap)
         
